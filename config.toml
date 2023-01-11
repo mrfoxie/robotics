@@ -32,7 +32,7 @@ defaultContentLanguage = "en"
 # disableLanguages = ['pir']
 
 # the site's title of this showcase; you should change this ;-)
-title = "Hugo Relearn Documentation"
+title = "Robotics"
 
 # We disable this for testing the exampleSite; you must do so too
 # if you want to use the themes parameter disableGeneratorVersion=true;
@@ -84,37 +84,37 @@ disableHugoGeneratorInject = true
 # your project
 [Languages]
   [Languages.en]
-    title = "Hugo Relearn Theme"
+    title = "Robotics"
     weight = 1
     languageName = "English"
     landingPageName = "<i class='fas fa-home'></i> Home"
 
-  [[Languages.en.menu.shortcuts]]
-    name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
-    identifier = "ds"
-    url = "https://github.com/McShelby/hugo-theme-relearn"
-    weight = 10
+  # [[Languages.en.menu.shortcuts]]
+  #   name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+  #   identifier = "ds"
+  #   url = "https://github.com/McShelby/hugo-theme-relearn"
+  #   weight = 10
 
-  [[Languages.en.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-camera'></i> Showcases"
-    url = "more/showcase/"
-    weight = 11
+  # [[Languages.en.menu.shortcuts]]
+  #   name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+  #   url = "more/showcase/"
+  #   weight = 11
 
-  [[Languages.en.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
-    identifier = "hugodoc"
-    url = "https://gohugo.io/"
-    weight = 20
+  # [[Languages.en.menu.shortcuts]]
+  #   name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+  #   identifier = "hugodoc"
+  #   url = "https://gohugo.io/"
+  #   weight = 20
 
-  [[Languages.en.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-    url = "more/credits/"
-    weight = 30
+  # [[Languages.en.menu.shortcuts]]
+  #   name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+  #   url = "more/credits/"
+  #   weight = 30
 
-  [[Languages.en.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-tags'></i> Tags"
-    url = "tags/"
-    weight = 40
+  # [[Languages.en.menu.shortcuts]]
+  #   name = "<i class='fas fa-fw fa-tags'></i> Tags"
+  #   url = "tags/"
+  #   weight = 40
 
   # this is ourrr way t' showcase th' multilang settings by
   # doing autotrrranlat'n of th' english content; we are
@@ -122,45 +122,45 @@ disableHugoGeneratorInject = true
   # don't take it t' serrrious, fello'; it's prrretty hacky and:
   # NOT MEANT FER PRRRODUCTION! ARRR!
 
-  [Languages.pir]
-    title = "Cap'n Hugo Relearrrn Theme"
-    weight = 2
-    languageName = "Arrr! ☠ Pirrrates ☠"
-    landingPageName = "<i class='fas fa-home'></i> Arrr! Home"
+  # [Languages.pir]
+  #   title = "Robotics"
+  #   weight = 2
+  #   languageName = "Arrr! ☠ Pirrrates ☠"
+  #   landingPageName = "<i class='fas fa-home'></i> Arrr! Home"
 
-  [[Languages.pir.menu.shortcuts]]
-    name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
-    identifier = "ds"
-    url = "https://github.com/McShelby/hugo-theme-relearn"
-    weight = 10
+  # [[Languages.pir.menu.shortcuts]]
+  #   name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+  #   identifier = "ds"
+  #   url = "https://github.com/McShelby/hugo-theme-relearn"
+  #   weight = 10
 
-  [[Languages.pir.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-camera'></i> Showcases"
-    url = "more/showcase/"
-    weight = 11
+  # [[Languages.pir.menu.shortcuts]]
+  #   name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+  #   url = "more/showcase/"
+  #   weight = 11
 
-  [[Languages.pir.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-bookmark'></i> Cap'n Hugo Documentat'n"
-    identifier = "hugodoc"
-    url = "https://gohugo.io/"
-    weight = 20
+  # [[Languages.pir.menu.shortcuts]]
+  #   name = "<i class='fas fa-fw fa-bookmark'></i> Cap'n Hugo Documentat'n"
+  #   identifier = "hugodoc"
+  #   url = "https://gohugo.io/"
+  #   weight = 20
 
-  [[Languages.pir.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-bullhorn'></i> Crrredits"
-    url = "more/credits/"
-    weight = 30
+  # [[Languages.pir.menu.shortcuts]]
+  #   name = "<i class='fas fa-fw fa-bullhorn'></i> Crrredits"
+  #   url = "more/credits/"
+  #   weight = 30
 
-  [[Languages.pir.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-tags'></i> Arrr! Tags"
-    url = "tags/"
-    weight = 40
+  # [[Languages.pir.menu.shortcuts]]
+  #   name = "<i class='fas fa-fw fa-tags'></i> Arrr! Tags"
+  #   url = "tags/"
+  #   weight = 40
 
 # settings specific to this theme's features; choose to your likings and
 # consult this documentation for explaination
 [params]
-  editURL = "https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/"
+  editURL = "https://github.com/mrfoxie/robotics/tree/master/content"
   description = "Documentation for Hugo Relearn Theme"
-  author = "Sören Weber"
+  author = "Mistry Siddh"
   showVisitedLinks = true
   collapsibleMenu = true
   disableBreadcrumb = false
@@ -168,7 +168,7 @@ disableHugoGeneratorInject = true
   disableNextPrev = false
   disableLandingPageButton = true
   titleSeparator = "::"
-  themeVariant = [ "relearn-light", "relearn-dark", "learn", "neon", "blue", "green", "red" ]
+  themeVariant = [ "neon", "relearn-light", "relearn-dark", "learn", "blue", "green", "red" ]
   disableSeoHiddenPages = true
   # this is for the stylesheet generator to allow for interactivity in Mermaid
   # graphs; you usually will not need it and you should remove this for
